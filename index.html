@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Joseph - theurbandev</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link href="css/index.css" rel="stylesheet" >
+    <link rel="stylesheet" href="/css/aos.css" />
+    <link rel="stylesheet" href="css/fancybox.css" />
+</head>
+<body>
+    <nav>
+        <span class="white_txt roboto" id="logo">M</span>
+        <div id="navItemsContainer" class="desktopMenu" data-aos="fade-down">
+            <ul class="white_txt roboto_mono">
+                <a href="#section2"><li class="navItem">01.<span class="green1">about</span></li></a>
+                <a href="#section3"><li class="navItem">02.<span class="green1">work</span></li></a>
+                <a class="typeform-share button" href="https://form.typeform.com/to/KhtKzCsN?typeform-medium=embed-snippet" data-mode="popup"  data-size="100" target="_blank">
+                    <li class="navItem" >03.<span class="green1">contact</span></li>
+                </a> 
+                <li class="navItem" data-fancybox data-src="#hidden-content-social">04.<span class="green1">social</span></li>
+            </ul>
+            <div style="display: none;" id="hidden-content-social">
+               <a href="https://github.com/ikonCoder" target="_blank"><div id="innerSocialContainer"><img src="assets/images/github.png" alt="" class="socialIcon"> <span style="vertical-align: -3px; color: black;">Github</span> </div></a>
+               <a href="https://www.linkedin.com/in/matthew-joseph-1456a21a7/" target="_blank"><div id="innerSocialContainer"><img src="assets/images/linkedin.png" alt="" class="socialIcon"> <span style="vertical-align: -3px; color: black;">Linkedin</span> </div></a>
+               <a href="https://www.instagram.com/theurbandev/" target="_blank"><div id="innerSocialContainer"><img src="assets/images/instagram.png" alt="" class="socialIcon"> <span style="vertical-align: -3px; color: black;">Instagram</span> </div></a>
+            </div>
+        </div>
+        <div class="mobileMenu">
+            <div class="hamburger" id="hamburger-12">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
+            <div id="innerMobileMenu" style='display:none;'>
+                <ul class="white_txt roboto_mono">
+                    <a href="#section2"><li class="navItem">01.<span class="green1">about</span></li></a>
+                    <a href="#section3"><li class="navItem">02.<span class="green1">work</span></li></a>
+                    <a class="typeform-share button" href="https://form.typeform.com/to/KhtKzCsN?typeform-medium=embed-snippet" data-mode="popup"  data-size="100" target="_blank">
+                        <li class="navItem" >03.<span class="green1">contact</span></li>
+                    </a> 
+                    <li class="navItem" data-fancybox data-src="#hidden-content-social">04.<span class="green1">social</span></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="hero">
+        <div id="computerImgContainer" data-aos="fade-right"></div>
+        <span id="heroTxt">
+            <div class="green1 roboto_mono" id="herotxt1">Hi, my name is</div>
+            <div class="grey1 roboto" id="herotxt2">Matthew Joseph</div>
+            <div class="grey1 txt-rotate roboto" id="title" data-period="2000" data-rotate='[ "I build things for the web."]'></div>
+            <a class="typeform-share button" href="https://form.typeform.com/to/KhtKzCsN?typeform-medium=embed-snippet" data-mode="popup"  data-size="100" target="_blank">
+                <div class="greenButton grey2 cta1 roboto">Get in touch.</div>
+            </a> 
+        </span>
+        <img id="downArrow" src="assets/images/arrow.svg" />
+    </section>
+    <section id="section2">
+        <div id="phoneImgContainer" data-aos="fade-left"></div>
+        <span id="aboutTxt">
+            <li class="roboto_mono white_txt" id="aboutTitle" style="list-style: none;">01.<span class="green1">about</span><span class="greyLine"></span></li>
+            <div class="grey1 roboto" id="aboutTxt">
+                Hello 👋, I’m Matt! Whether this is your first visit, or your tenth, welcome! I specialize in creating beautiful and functional online experiences utilizing web technologies. Although I work as a Full-Stack Developer, I also try to inspire others via my social media to become better developers. My goal is to excel in my field and teach others how to as well.
+
+                <br> <br>
+                Aside from code, I love spending time with my family, playing video games, and reading books. So you're ready to get your website launched? Feel free to network with me anyways!
+            </div>
+            <div class="green1 roboto" id="techStack">
+                <ul>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">Node.js</li>
+                </ul>
+                <ul>
+                    <li class="skill">React.js</li>
+                    <li class="skill">Python</li>
+                </ul>
+                <ul>
+                    <li class="skill">PHP</li>
+                    <li class="skill">MySQL</li>
+                </ul>
+            </div>
+        </span>
+    </section>
+    <section id="section3">
+        <li class="roboto_mono white_txt" id="aboutTitle" style="list-style: none;">02.<span class="green1">work</span><span class="greyLine"></span></li>
+        <span id="mainProjContainer" class="row">
+            <div id="projWrapper" data-aos="fade-down" class="col-sm col-md ">
+                <img src="assets/images/folderIcon.svg" alt="folder_icon" id="folderIcon">
+                <span id="projCtaContainer" class="roboto_mono">
+                    <a target="_blank" href="https://github.com/ikonCoder/coffeesearch">Github</a>
+                    <a target="_blank" href="https://theurbandev.com/coffeesearch" >Visit</a>
+                </span>
+                <title class="white_txt roboto_mono" id="projTitle">Coffee Search</title>
+                <div class="grey2 roboto" id="description">A search engine built for finding coffee from all over the world! You can search by country or brand.
+                </div>
+                <ul id=projTechContainer>
+                    <li class="projTech white_txt roboto">PHP</li>
+                    <li class="projTech white_txt roboto">JavaScript</li>
+                    <li class="projTech white_txt roboto">MySQL</li>
+               </ul>
+            </div>
+
+            <div id="projWrapper" data-aos="fade-down" class="col-sm col-md ">
+                <img src="assets/images/folderIcon.svg" alt="folder_icon" id="folderIcon">
+                <span id="projCtaContainer" class="roboto_mono">
+                    <a target="_blank" href="https://github.com/ikonCoder/password-manager">Github</a>
+                </span>
+                <title class="white_txt roboto_mono" id="projTitle">Password Manager</title>
+                <div class="grey2 roboto" id="description">An app made to keep track of my usernames, passwords, and email address associated with any app/website.</div>
+                <ul id=projTechContainer>
+                    <li class="projTech white_txt roboto">Python</li>
+                    <li class="projTech white_txt roboto">Postgresql</li>
+                </ul>
+            </div>
+ 
+            <div id="projWrapper" data-aos="fade-down" class="col-sm col-md ">
+                <img src="assets/images/folderIcon.svg" alt="folder_icon" id="folderIcon">
+                <span id="projCtaContainer" class="roboto_mono">
+                    <a target="_blank" href="https://github.com/ikonCoder/dott">Github</a>
+                    <a target="_blank" href="https://ikoncoder.github.io/dott/">Visit</a>
+                </span>
+                <title class="white_txt roboto_mono" id="projTitle">Dott</title>
+                <div class="grey2 roboto" id="description">Dott is my modern approach to a upscale restaurant using smooth and dynamic transitions.</div>
+                <ul id=projTechContainer>
+                    <li class="projTech white_txt roboto">JavaScript</li>
+                    <li class="projTech white_txt roboto">Jquery</li>
+                </ul>
+            </div>
+       
+                <div id="projWrapper" data-aos="fade-down" class="col-sm col-md ">
+                    <img src="assets/images/folderIcon.svg" alt="folder_icon" id="folderIcon">
+                    <span id="projCtaContainer" class="roboto_mono">
+                        <a>COMING SOON</a>
+                    </span>
+                    <title class="white_txt roboto_mono" id="projTitle">Spotify Profile</title>
+                    <div class="grey2 roboto" id="description">A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, etc.</div>
+                    <ul id=projTechContainer>
+                        <li class="projTech white_txt roboto">Node</li>
+                        <li class="projTech white_txt roboto">React</li>
+                        <li class="projTech white_txt roboto">Express</li>
+                        <li class="projTech white_txt roboto">Spotify API</li>
+                    </ul>
+                </div>
+    
+                <div id="projWrapper" data-aos="fade-down" class="col-sm col-md ">
+                    <img src="assets/images/folderIcon.svg" alt="folder_icon" id="folderIcon">
+                    <span id="projCtaContainer" class="roboto_mono">
+                        <a>COMING SOON</a>
+                    </span>
+                    <title class="white_txt roboto_mono" id="projTitle">Zara Clone</title>
+                    <div class="grey2 roboto" id="description">A replica of the official Zara website to demonstrate fluid design in an E-commerce platform.</div>
+                    <ul id=projTechContainer>
+                        <li class="projTech white_txt roboto">React</li>
+                        <li class="projTech white_txt roboto">Firebase</li>
+                        <li class="projTech white_txt roboto">PHP</li>
+                    </ul>
+                </div>
+    
+                <div id="projWrapper" data-aos="fade-down" class="col-sm col-md ">
+                    <img src="assets/images/folderIcon.svg" alt="folder_icon" id="folderIcon">
+                    <span id="projCtaContainer" class="roboto_mono">
+                        <a>COMING SOON</a>
+                    </span>
+                    <title class="white_txt roboto_mono" id="projTitle">Notes App</title>
+                    <div class="grey2 roboto" id="description">A CRUD app - plugging into the google keep api to create my own interface for creating and deleting notes.</div>
+                    <ul id=projTechContainer>
+                        <li class="projTech white_txt roboto">Vue</li>
+                        <li class="projTech white_txt roboto">Firebase</li>
+                        <li class="projTech white_txt roboto">Google Keep API</li>
+                    </ul>
+                </div>
+                
+        </span>
+    </section>
+    <section id="section4">
+        <li class="roboto_mono white_txt" id="aboutTitle" style="list-style: none;">03.<span class="green1">contact</span><span class="greyLine"></span></li>
+        <div class="grey2 roboto contactTxt">Let's talk. But you first.   
+            <span id="vertLine"></span>
+            <a class="typeform-share button" href="https://form.typeform.com/to/KhtKzCsN?typeform-medium=embed-snippet" data-mode="popup"  data-size="100" target="_blank">
+                <div class="greenButton grey2 cta2 roboto" style="margin: 0 auto;">Get in touch.</div>
+            </a> 
+        </div>
+    </section>
+    <footer class="roboto_mono white_txt">
+        This website was designed and built by Matthew Joseph
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>'<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/index.js"></script>
+<script> 
+(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+</script>
+</html>
